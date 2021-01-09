@@ -1,0 +1,9 @@
+#finding average of the person's test score
+math = int(input("What is your math score?"))
+sci = int(input("What is your science score?"))
+english = int(input("What is your English score?"))
+sec_lang = int(input("What is your second language score?"))
+total = math + sci + english + sec_lang
+average = int(total/4)
+average_float = float(average)
+print(average_float)
